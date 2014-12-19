@@ -10,4 +10,4 @@ Este nivel se usa para definir el área de afectación del valor contenido. Los 
 
 	$pow['global'] -> Esta variable afectará de manera global todo el CMS. Seguramente define algún aspecto general del CMS.
 	$pow['module'] -> Esta variable afectará localmente al módulo que se está usando actualmente.
-	$pow['file'] --->
+	$pow['file'] ---> El rango de afectación de esta variable se circunscribe sólo al ámbito del archivo actual. Puede ser una vista o un archivo de funciones, etc...
